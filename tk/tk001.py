@@ -7,6 +7,6 @@
 import tkinter
 
 m = tkinter.Tk()
-m.title("my first window")
+
 
 m.mainloop()
