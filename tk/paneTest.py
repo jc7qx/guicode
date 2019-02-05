@@ -1,3 +1,5 @@
+#不太了解
+
 from tkinter import *
 m1 = PanedWindow() 
 m1.pack(fill = BOTH, expand = 1) 
