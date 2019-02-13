@@ -12,9 +12,11 @@ def counter_label(label):
  
  
 root = tk.Tk()
+
 root.title("Counting Seconds")
 label = tk.Label(root, fg="dark green")
 label.pack()
+
 counter_label(label) #改變標籤內容
 button = tk.Button(root, text='Stop', width=25, command=root.destroy)
 button.pack()
